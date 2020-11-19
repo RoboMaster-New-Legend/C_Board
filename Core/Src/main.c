@@ -19,17 +19,19 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "dma.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include "../../Board_task/bsp_led.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
 #include "../../APP/remote_control.h"
 #include "../../Board_task/bsp_rc.h"
 #include "../../Board_task/bsp_usart.h"
-/* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
-
+#include "../../Board_task/bsp_led.h"
+#include "../../Board_task/bsp_adc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,28 +97,28 @@ int main(void) {
     MX_TIM4_Init();
     MX_USART1_UART_Init();
     MX_USART3_UART_Init();
+    MX_ADC1_Init();
+    MX_ADC3_Init();
     /* USER CODE BEGIN 2 */
     remote_control_init();
     usart1_tx_dma_init();
+    const RC_ctrl_t *local_rc = get_remote_control_point();
+    init_vrefint_reciprocal();
+    fp32 vol;
     /* USER CODE END 2 */
-    const RC_ctrl_t *rc_point = get_remote_control_point();
-    led_on();
+
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
         /* USER CODE END WHILE */
-
-        if(switch_is_up(rc_point->rc.s[0]))
+        vol = get_battery_voltage();
+        if(switch_is_up(local_rc->rc.s[1]))
         {
-            led_r_on();
-        }
-        else if(switch_is_mid(rc_point->rc.s[0]))
-        {
-            led_g_on();
+            led_on();
         }
         else
         {
-            led_b_on();
+            led_off();
         }
         /* USER CODE BEGIN 3 */
     }

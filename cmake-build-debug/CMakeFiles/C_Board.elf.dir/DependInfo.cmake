@@ -25,11 +25,14 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_C
   "F:/CODE/CODE_STM32/C_Board/APP/remote_control.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/APP/remote_control.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_adc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_buzzer.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_delay.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_key.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_rc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_task/bsp_usart.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Core/Src/adc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/dma.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/dma.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/gpio.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/main.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj"
@@ -40,6 +43,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "F:/CODE/CODE_STM32/C_Board/Core/Src/tim.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/usart.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"

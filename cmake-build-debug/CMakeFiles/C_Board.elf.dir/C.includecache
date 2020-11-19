@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../Core/Inc/adc.h
+main.h
+../Core/Inc/main.h
+
 ../Core/Inc/dma.h
 main.h
 ../Core/Inc/main.h
@@ -234,6 +238,16 @@ mpu_armv7.h
 stm32f4xx_hal_conf.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_conf.h
 
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+stm32f4xx_hal_adc_ex.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
@@ -326,23 +340,9 @@ F:/CODE/CODE_STM32/C_Board/Board_task/struct_typedef.h
 ../Board_task/bsp_rc.h
 F:/CODE/CODE_STM32/C_Board/Board_task/bsp_rc.h
 
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_key.c
-main.h
-F:/CODE/CODE_STM32/C_Board/Board_task/main.h
-bsp_led.h
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.h
-bsp_key.h
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_key.h
-
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_key.h
+F:/CODE/CODE_STM32/C_Board/Board_task/bsp_adc.h
 struct_typedef.h
 F:/CODE/CODE_STM32/C_Board/Board_task/struct_typedef.h
-
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.c
-bsp_led.h
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.h
-main.h
-F:/CODE/CODE_STM32/C_Board/Board_task/main.h
 
 F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.h
 struct_typedef.h
@@ -361,6 +361,8 @@ F:/CODE/CODE_STM32/C_Board/Board_task/struct_typedef.h
 F:/CODE/CODE_STM32/C_Board/Core/Src/main.c
 main.h
 F:/CODE/CODE_STM32/C_Board/Core/Src/main.h
+adc.h
+F:/CODE/CODE_STM32/C_Board/Core/Src/adc.h
 dma.h
 F:/CODE/CODE_STM32/C_Board/Core/Src/dma.h
 tim.h
@@ -369,12 +371,14 @@ usart.h
 F:/CODE/CODE_STM32/C_Board/Core/Src/usart.h
 gpio.h
 F:/CODE/CODE_STM32/C_Board/Core/Src/gpio.h
-../../Board_task/bsp_led.h
-F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.h
 ../../APP/remote_control.h
 F:/CODE/CODE_STM32/C_Board/APP/remote_control.h
 ../../Board_task/bsp_rc.h
 F:/CODE/CODE_STM32/C_Board/Board_task/bsp_rc.h
 ../../Board_task/bsp_usart.h
 F:/CODE/CODE_STM32/C_Board/Board_task/bsp_usart.h
+../../Board_task/bsp_led.h
+F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.h
+../../Board_task/bsp_adc.h
+F:/CODE/CODE_STM32/C_Board/Board_task/bsp_adc.h
 

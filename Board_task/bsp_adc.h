@@ -13,6 +13,4 @@ extern fp32 get_temprate(void);
 
 extern fp32 get_battery_voltage(void);
 
-extern uint8_t get_hardware_version(void);
-
 #endif //DEMO2_BSP_ADC_H

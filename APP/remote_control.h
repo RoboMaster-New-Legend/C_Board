@@ -97,4 +97,5 @@ extern void remote_control_init(void);
   * @retval         遥控器数据指针
   */
 extern const RC_ctrl_t *get_remote_control_point(void);
+
 #endif
