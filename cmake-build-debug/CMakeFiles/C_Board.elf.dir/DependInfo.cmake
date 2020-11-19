@@ -24,15 +24,18 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "F:/CODE/CODE_STM32/C_Board/APP/CAN_receive.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/APP/CAN_receive.c.obj"
   "F:/CODE/CODE_STM32/C_Board/APP/remote_control.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/APP/remote_control.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_adc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_buzzer.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_can.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_can.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_delay.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_key.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_led.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_rc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Board_test/bsp_usart.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/adc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Core/Src/can.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/can.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/dma.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/dma.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/gpio.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Core/Src/i2c.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj"
@@ -46,6 +49,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
@@ -63,7 +67,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-  "F:/CODE/CODE_STM32/C_Board/divices/OLED.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/devices/OLED.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/devices/OLED.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

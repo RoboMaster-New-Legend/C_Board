@@ -94,6 +94,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/APP/CAN_receive.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/APP/CAN_receive.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/APP/remote_control.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
@@ -110,6 +116,12 @@
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_buzzer.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_can.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_can.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_delay.c">
@@ -148,6 +160,9 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/adc.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/can.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/dma.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
@@ -173,6 +188,9 @@
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Src/adc.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Src/can.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Src/dma.c">
@@ -289,6 +307,9 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
@@ -355,6 +376,9 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
@@ -409,13 +433,13 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/STM32F407IGHx_FLASH.ld">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/divices/OLED.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/devices/OLED.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/divices/OLED.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/devices/OLED.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/divices/OLED_fonts.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/devices/OLED_fonts.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/startup/startup_stm32f407xx.s">

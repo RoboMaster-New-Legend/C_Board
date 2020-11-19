@@ -142,6 +142,33 @@ C_Board.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/build
 .PHONY : C_Board.elf/fast
 
+APP/CAN_receive.obj: APP/CAN_receive.c.obj
+
+.PHONY : APP/CAN_receive.obj
+
+# target to build an object file
+APP/CAN_receive.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/APP/CAN_receive.c.obj
+.PHONY : APP/CAN_receive.c.obj
+
+APP/CAN_receive.i: APP/CAN_receive.c.i
+
+.PHONY : APP/CAN_receive.i
+
+# target to preprocess a source file
+APP/CAN_receive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/APP/CAN_receive.c.i
+.PHONY : APP/CAN_receive.c.i
+
+APP/CAN_receive.s: APP/CAN_receive.c.s
+
+.PHONY : APP/CAN_receive.s
+
+# target to generate assembly for a file
+APP/CAN_receive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/APP/CAN_receive.c.s
+.PHONY : APP/CAN_receive.c.s
+
 APP/remote_control.obj: APP/remote_control.c.obj
 
 .PHONY : APP/remote_control.obj
@@ -222,6 +249,33 @@ Board_test/bsp_buzzer.s: Board_test/bsp_buzzer.c.s
 Board_test/bsp_buzzer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.s
 .PHONY : Board_test/bsp_buzzer.c.s
+
+Board_test/bsp_can.obj: Board_test/bsp_can.c.obj
+
+.PHONY : Board_test/bsp_can.obj
+
+# target to build an object file
+Board_test/bsp_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_can.c.obj
+.PHONY : Board_test/bsp_can.c.obj
+
+Board_test/bsp_can.i: Board_test/bsp_can.c.i
+
+.PHONY : Board_test/bsp_can.i
+
+# target to preprocess a source file
+Board_test/bsp_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_can.c.i
+.PHONY : Board_test/bsp_can.c.i
+
+Board_test/bsp_can.s: Board_test/bsp_can.c.s
+
+.PHONY : Board_test/bsp_can.s
+
+# target to generate assembly for a file
+Board_test/bsp_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_can.c.s
+.PHONY : Board_test/bsp_can.c.s
 
 Board_test/bsp_delay.obj: Board_test/bsp_delay.c.obj
 
@@ -384,6 +438,33 @@ Core/Src/adc.s: Core/Src/adc.c.s
 Core/Src/adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.s
 .PHONY : Core/Src/adc.c.s
+
+Core/Src/can.obj: Core/Src/can.c.obj
+
+.PHONY : Core/Src/can.obj
+
+# target to build an object file
+Core/Src/can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/can.c.obj
+.PHONY : Core/Src/can.c.obj
+
+Core/Src/can.i: Core/Src/can.c.i
+
+.PHONY : Core/Src/can.i
+
+# target to preprocess a source file
+Core/Src/can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/can.c.i
+.PHONY : Core/Src/can.c.i
+
+Core/Src/can.s: Core/Src/can.c.s
+
+.PHONY : Core/Src/can.s
+
+# target to generate assembly for a file
+Core/Src/can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/can.c.s
+.PHONY : Core/Src/can.c.s
 
 Core/Src/dma.obj: Core/Src/dma.c.obj
 
@@ -735,6 +816,33 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: Drivers/STM32F4xx_HAL_D
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 
@@ -1195,32 +1303,32 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
-divices/OLED.obj: divices/OLED.c.obj
+devices/OLED.obj: devices/OLED.c.obj
 
-.PHONY : divices/OLED.obj
+.PHONY : devices/OLED.obj
 
 # target to build an object file
-divices/OLED.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj
-.PHONY : divices/OLED.c.obj
+devices/OLED.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/devices/OLED.c.obj
+.PHONY : devices/OLED.c.obj
 
-divices/OLED.i: divices/OLED.c.i
+devices/OLED.i: devices/OLED.c.i
 
-.PHONY : divices/OLED.i
+.PHONY : devices/OLED.i
 
 # target to preprocess a source file
-divices/OLED.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/divices/OLED.c.i
-.PHONY : divices/OLED.c.i
+devices/OLED.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/devices/OLED.c.i
+.PHONY : devices/OLED.c.i
 
-divices/OLED.s: divices/OLED.c.s
+devices/OLED.s: devices/OLED.c.s
 
-.PHONY : divices/OLED.s
+.PHONY : devices/OLED.s
 
 # target to generate assembly for a file
-divices/OLED.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/divices/OLED.c.s
-.PHONY : divices/OLED.c.s
+devices/OLED.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/devices/OLED.c.s
+.PHONY : devices/OLED.c.s
 
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
@@ -1240,6 +1348,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_Board.elf
+	@echo ... APP/CAN_receive.obj
+	@echo ... APP/CAN_receive.i
+	@echo ... APP/CAN_receive.s
 	@echo ... APP/remote_control.obj
 	@echo ... APP/remote_control.i
 	@echo ... APP/remote_control.s
@@ -1249,6 +1360,9 @@ help:
 	@echo ... Board_test/bsp_buzzer.obj
 	@echo ... Board_test/bsp_buzzer.i
 	@echo ... Board_test/bsp_buzzer.s
+	@echo ... Board_test/bsp_can.obj
+	@echo ... Board_test/bsp_can.i
+	@echo ... Board_test/bsp_can.s
 	@echo ... Board_test/bsp_delay.obj
 	@echo ... Board_test/bsp_delay.i
 	@echo ... Board_test/bsp_delay.s
@@ -1267,6 +1381,9 @@ help:
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
+	@echo ... Core/Src/can.obj
+	@echo ... Core/Src/can.i
+	@echo ... Core/Src/can.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s
@@ -1306,6 +1423,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s
@@ -1357,9 +1477,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
-	@echo ... divices/OLED.obj
-	@echo ... divices/OLED.i
-	@echo ... divices/OLED.s
+	@echo ... devices/OLED.obj
+	@echo ... devices/OLED.i
+	@echo ... devices/OLED.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 
