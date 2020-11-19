@@ -169,194 +169,194 @@ APP/remote_control.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/APP/remote_control.c.s
 .PHONY : APP/remote_control.c.s
 
-Board_task/bsp_adc.obj: Board_task/bsp_adc.c.obj
+Board_test/bsp_adc.obj: Board_test/bsp_adc.c.obj
 
-.PHONY : Board_task/bsp_adc.obj
-
-# target to build an object file
-Board_task/bsp_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj
-.PHONY : Board_task/bsp_adc.c.obj
-
-Board_task/bsp_adc.i: Board_task/bsp_adc.c.i
-
-.PHONY : Board_task/bsp_adc.i
-
-# target to preprocess a source file
-Board_task/bsp_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.i
-.PHONY : Board_task/bsp_adc.c.i
-
-Board_task/bsp_adc.s: Board_task/bsp_adc.c.s
-
-.PHONY : Board_task/bsp_adc.s
-
-# target to generate assembly for a file
-Board_task/bsp_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.s
-.PHONY : Board_task/bsp_adc.c.s
-
-Board_task/bsp_buzzer.obj: Board_task/bsp_buzzer.c.obj
-
-.PHONY : Board_task/bsp_buzzer.obj
+.PHONY : Board_test/bsp_adc.obj
 
 # target to build an object file
-Board_task/bsp_buzzer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj
-.PHONY : Board_task/bsp_buzzer.c.obj
+Board_test/bsp_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj
+.PHONY : Board_test/bsp_adc.c.obj
 
-Board_task/bsp_buzzer.i: Board_task/bsp_buzzer.c.i
+Board_test/bsp_adc.i: Board_test/bsp_adc.c.i
 
-.PHONY : Board_task/bsp_buzzer.i
+.PHONY : Board_test/bsp_adc.i
 
 # target to preprocess a source file
-Board_task/bsp_buzzer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.i
-.PHONY : Board_task/bsp_buzzer.c.i
+Board_test/bsp_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.i
+.PHONY : Board_test/bsp_adc.c.i
 
-Board_task/bsp_buzzer.s: Board_task/bsp_buzzer.c.s
+Board_test/bsp_adc.s: Board_test/bsp_adc.c.s
 
-.PHONY : Board_task/bsp_buzzer.s
+.PHONY : Board_test/bsp_adc.s
 
 # target to generate assembly for a file
-Board_task/bsp_buzzer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.s
-.PHONY : Board_task/bsp_buzzer.c.s
+Board_test/bsp_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.s
+.PHONY : Board_test/bsp_adc.c.s
 
-Board_task/bsp_delay.obj: Board_task/bsp_delay.c.obj
+Board_test/bsp_buzzer.obj: Board_test/bsp_buzzer.c.obj
 
-.PHONY : Board_task/bsp_delay.obj
+.PHONY : Board_test/bsp_buzzer.obj
 
 # target to build an object file
-Board_task/bsp_delay.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj
-.PHONY : Board_task/bsp_delay.c.obj
+Board_test/bsp_buzzer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj
+.PHONY : Board_test/bsp_buzzer.c.obj
 
-Board_task/bsp_delay.i: Board_task/bsp_delay.c.i
+Board_test/bsp_buzzer.i: Board_test/bsp_buzzer.c.i
 
-.PHONY : Board_task/bsp_delay.i
+.PHONY : Board_test/bsp_buzzer.i
 
 # target to preprocess a source file
-Board_task/bsp_delay.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.i
-.PHONY : Board_task/bsp_delay.c.i
+Board_test/bsp_buzzer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.i
+.PHONY : Board_test/bsp_buzzer.c.i
 
-Board_task/bsp_delay.s: Board_task/bsp_delay.c.s
+Board_test/bsp_buzzer.s: Board_test/bsp_buzzer.c.s
 
-.PHONY : Board_task/bsp_delay.s
+.PHONY : Board_test/bsp_buzzer.s
 
 # target to generate assembly for a file
-Board_task/bsp_delay.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.s
-.PHONY : Board_task/bsp_delay.c.s
+Board_test/bsp_buzzer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.s
+.PHONY : Board_test/bsp_buzzer.c.s
 
-Board_task/bsp_key.obj: Board_task/bsp_key.c.obj
+Board_test/bsp_delay.obj: Board_test/bsp_delay.c.obj
 
-.PHONY : Board_task/bsp_key.obj
+.PHONY : Board_test/bsp_delay.obj
 
 # target to build an object file
-Board_task/bsp_key.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj
-.PHONY : Board_task/bsp_key.c.obj
+Board_test/bsp_delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj
+.PHONY : Board_test/bsp_delay.c.obj
 
-Board_task/bsp_key.i: Board_task/bsp_key.c.i
+Board_test/bsp_delay.i: Board_test/bsp_delay.c.i
 
-.PHONY : Board_task/bsp_key.i
+.PHONY : Board_test/bsp_delay.i
 
 # target to preprocess a source file
-Board_task/bsp_key.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.i
-.PHONY : Board_task/bsp_key.c.i
+Board_test/bsp_delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.i
+.PHONY : Board_test/bsp_delay.c.i
 
-Board_task/bsp_key.s: Board_task/bsp_key.c.s
+Board_test/bsp_delay.s: Board_test/bsp_delay.c.s
 
-.PHONY : Board_task/bsp_key.s
+.PHONY : Board_test/bsp_delay.s
 
 # target to generate assembly for a file
-Board_task/bsp_key.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.s
-.PHONY : Board_task/bsp_key.c.s
+Board_test/bsp_delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.s
+.PHONY : Board_test/bsp_delay.c.s
 
-Board_task/bsp_led.obj: Board_task/bsp_led.c.obj
+Board_test/bsp_key.obj: Board_test/bsp_key.c.obj
 
-.PHONY : Board_task/bsp_led.obj
+.PHONY : Board_test/bsp_key.obj
 
 # target to build an object file
-Board_task/bsp_led.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj
-.PHONY : Board_task/bsp_led.c.obj
+Board_test/bsp_key.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj
+.PHONY : Board_test/bsp_key.c.obj
 
-Board_task/bsp_led.i: Board_task/bsp_led.c.i
+Board_test/bsp_key.i: Board_test/bsp_key.c.i
 
-.PHONY : Board_task/bsp_led.i
+.PHONY : Board_test/bsp_key.i
 
 # target to preprocess a source file
-Board_task/bsp_led.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.i
-.PHONY : Board_task/bsp_led.c.i
+Board_test/bsp_key.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.i
+.PHONY : Board_test/bsp_key.c.i
 
-Board_task/bsp_led.s: Board_task/bsp_led.c.s
+Board_test/bsp_key.s: Board_test/bsp_key.c.s
 
-.PHONY : Board_task/bsp_led.s
+.PHONY : Board_test/bsp_key.s
 
 # target to generate assembly for a file
-Board_task/bsp_led.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.s
-.PHONY : Board_task/bsp_led.c.s
+Board_test/bsp_key.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.s
+.PHONY : Board_test/bsp_key.c.s
 
-Board_task/bsp_rc.obj: Board_task/bsp_rc.c.obj
+Board_test/bsp_led.obj: Board_test/bsp_led.c.obj
 
-.PHONY : Board_task/bsp_rc.obj
+.PHONY : Board_test/bsp_led.obj
 
 # target to build an object file
-Board_task/bsp_rc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj
-.PHONY : Board_task/bsp_rc.c.obj
+Board_test/bsp_led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj
+.PHONY : Board_test/bsp_led.c.obj
 
-Board_task/bsp_rc.i: Board_task/bsp_rc.c.i
+Board_test/bsp_led.i: Board_test/bsp_led.c.i
 
-.PHONY : Board_task/bsp_rc.i
+.PHONY : Board_test/bsp_led.i
 
 # target to preprocess a source file
-Board_task/bsp_rc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.i
-.PHONY : Board_task/bsp_rc.c.i
+Board_test/bsp_led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.i
+.PHONY : Board_test/bsp_led.c.i
 
-Board_task/bsp_rc.s: Board_task/bsp_rc.c.s
+Board_test/bsp_led.s: Board_test/bsp_led.c.s
 
-.PHONY : Board_task/bsp_rc.s
+.PHONY : Board_test/bsp_led.s
 
 # target to generate assembly for a file
-Board_task/bsp_rc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.s
-.PHONY : Board_task/bsp_rc.c.s
+Board_test/bsp_led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.s
+.PHONY : Board_test/bsp_led.c.s
 
-Board_task/bsp_usart.obj: Board_task/bsp_usart.c.obj
+Board_test/bsp_rc.obj: Board_test/bsp_rc.c.obj
 
-.PHONY : Board_task/bsp_usart.obj
+.PHONY : Board_test/bsp_rc.obj
 
 # target to build an object file
-Board_task/bsp_usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj
-.PHONY : Board_task/bsp_usart.c.obj
+Board_test/bsp_rc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj
+.PHONY : Board_test/bsp_rc.c.obj
 
-Board_task/bsp_usart.i: Board_task/bsp_usart.c.i
+Board_test/bsp_rc.i: Board_test/bsp_rc.c.i
 
-.PHONY : Board_task/bsp_usart.i
+.PHONY : Board_test/bsp_rc.i
 
 # target to preprocess a source file
-Board_task/bsp_usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.i
-.PHONY : Board_task/bsp_usart.c.i
+Board_test/bsp_rc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.i
+.PHONY : Board_test/bsp_rc.c.i
 
-Board_task/bsp_usart.s: Board_task/bsp_usart.c.s
+Board_test/bsp_rc.s: Board_test/bsp_rc.c.s
 
-.PHONY : Board_task/bsp_usart.s
+.PHONY : Board_test/bsp_rc.s
 
 # target to generate assembly for a file
-Board_task/bsp_usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.s
-.PHONY : Board_task/bsp_usart.c.s
+Board_test/bsp_rc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.s
+.PHONY : Board_test/bsp_rc.c.s
+
+Board_test/bsp_usart.obj: Board_test/bsp_usart.c.obj
+
+.PHONY : Board_test/bsp_usart.obj
+
+# target to build an object file
+Board_test/bsp_usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj
+.PHONY : Board_test/bsp_usart.c.obj
+
+Board_test/bsp_usart.i: Board_test/bsp_usart.c.i
+
+.PHONY : Board_test/bsp_usart.i
+
+# target to preprocess a source file
+Board_test/bsp_usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.i
+.PHONY : Board_test/bsp_usart.c.i
+
+Board_test/bsp_usart.s: Board_test/bsp_usart.c.s
+
+.PHONY : Board_test/bsp_usart.s
+
+# target to generate assembly for a file
+Board_test/bsp_usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.s
+.PHONY : Board_test/bsp_usart.c.s
 
 Core/Src/adc.obj: Core/Src/adc.c.obj
 
@@ -438,6 +438,33 @@ Core/Src/gpio.s: Core/Src/gpio.c.s
 Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
+
+Core/Src/i2c.obj: Core/Src/i2c.c.obj
+
+.PHONY : Core/Src/i2c.obj
+
+# target to build an object file
+Core/Src/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.c.obj
+
+Core/Src/i2c.i: Core/Src/i2c.c.i
+
+.PHONY : Core/Src/i2c.i
+
+# target to preprocess a source file
+Core/Src/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.c.i
+
+Core/Src/i2c.s: Core/Src/i2c.c.s
+
+.PHONY : Core/Src/i2c.s
+
+# target to generate assembly for a file
+Core/Src/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
 
@@ -925,6 +952,60 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
@@ -1135,27 +1216,27 @@ help:
 	@echo ... APP/remote_control.obj
 	@echo ... APP/remote_control.i
 	@echo ... APP/remote_control.s
-	@echo ... Board_task/bsp_adc.obj
-	@echo ... Board_task/bsp_adc.i
-	@echo ... Board_task/bsp_adc.s
-	@echo ... Board_task/bsp_buzzer.obj
-	@echo ... Board_task/bsp_buzzer.i
-	@echo ... Board_task/bsp_buzzer.s
-	@echo ... Board_task/bsp_delay.obj
-	@echo ... Board_task/bsp_delay.i
-	@echo ... Board_task/bsp_delay.s
-	@echo ... Board_task/bsp_key.obj
-	@echo ... Board_task/bsp_key.i
-	@echo ... Board_task/bsp_key.s
-	@echo ... Board_task/bsp_led.obj
-	@echo ... Board_task/bsp_led.i
-	@echo ... Board_task/bsp_led.s
-	@echo ... Board_task/bsp_rc.obj
-	@echo ... Board_task/bsp_rc.i
-	@echo ... Board_task/bsp_rc.s
-	@echo ... Board_task/bsp_usart.obj
-	@echo ... Board_task/bsp_usart.i
-	@echo ... Board_task/bsp_usart.s
+	@echo ... Board_test/bsp_adc.obj
+	@echo ... Board_test/bsp_adc.i
+	@echo ... Board_test/bsp_adc.s
+	@echo ... Board_test/bsp_buzzer.obj
+	@echo ... Board_test/bsp_buzzer.i
+	@echo ... Board_test/bsp_buzzer.s
+	@echo ... Board_test/bsp_delay.obj
+	@echo ... Board_test/bsp_delay.i
+	@echo ... Board_test/bsp_delay.s
+	@echo ... Board_test/bsp_key.obj
+	@echo ... Board_test/bsp_key.i
+	@echo ... Board_test/bsp_key.s
+	@echo ... Board_test/bsp_led.obj
+	@echo ... Board_test/bsp_led.i
+	@echo ... Board_test/bsp_led.s
+	@echo ... Board_test/bsp_rc.obj
+	@echo ... Board_test/bsp_rc.i
+	@echo ... Board_test/bsp_rc.s
+	@echo ... Board_test/bsp_usart.obj
+	@echo ... Board_test/bsp_usart.i
+	@echo ... Board_test/bsp_usart.s
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
@@ -1165,6 +1246,9 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/i2c.obj
+	@echo ... Core/Src/i2c.i
+	@echo ... Core/Src/i2c.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -1219,6 +1303,12 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s

@@ -89,96 +89,96 @@ CMakeFiles/C_Board.elf.dir/APP/remote_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/APP/remote_control.c.s"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\APP\remote_control.c -o CMakeFiles\C_Board.elf.dir\APP\remote_control.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj: ../Board_task/bsp_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_adc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_adc.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj: ../Board_test/bsp_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_adc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_adc.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_adc.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_adc.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_adc.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_adc.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_adc.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_adc.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_adc.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_adc.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj: ../Board_task/bsp_buzzer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_buzzer.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_buzzer.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj: ../Board_test/bsp_buzzer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_buzzer.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_buzzer.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_buzzer.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_buzzer.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_buzzer.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_buzzer.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_buzzer.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_buzzer.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_buzzer.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_buzzer.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj: ../Board_task/bsp_delay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_delay.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_delay.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj: ../Board_test/bsp_delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_delay.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_delay.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_delay.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_delay.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_delay.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_delay.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_delay.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_delay.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_delay.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_delay.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj: ../Board_task/bsp_key.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_key.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_key.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj: ../Board_test/bsp_key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_key.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_key.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_key.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_key.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_key.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_key.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_key.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_key.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_key.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_key.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj: ../Board_task/bsp_led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_led.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_led.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj: ../Board_test/bsp_led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_led.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_led.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_led.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_led.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_led.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_led.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_led.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_led.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_led.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_led.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj: ../Board_task/bsp_rc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_rc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_rc.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj: ../Board_test/bsp_rc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_rc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_rc.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_rc.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_rc.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_rc.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_rc.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_rc.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_rc.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_rc.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_rc.c.s
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj: ../Board_task/bsp_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_usart.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_task\bsp_usart.c
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj: ../Board_test/bsp_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_usart.c.obj   -c F:\CODE\CODE_STM32\C_Board\Board_test\bsp_usart.c
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.i"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_task\bsp_usart.c > CMakeFiles\C_Board.elf.dir\Board_task\bsp_usart.c.i
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Board_test\bsp_usart.c > CMakeFiles\C_Board.elf.dir\Board_test\bsp_usart.c.i
 
-CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.s"
-	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_task\bsp_usart.c -o CMakeFiles\C_Board.elf.dir\Board_task\bsp_usart.c.s
+CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Board_test\bsp_usart.c -o CMakeFiles\C_Board.elf.dir\Board_test\bsp_usart.c.s
 
 CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
@@ -219,9 +219,22 @@ CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.s"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Core\Src\gpio.c -o CMakeFiles\C_Board.elf.dir\Core\Src\gpio.c.s
 
+CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\i2c.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\i2c.c
+
+CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Core\Src\i2c.c > CMakeFiles\C_Board.elf.dir\Core\Src\i2c.c.i
+
+CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Core\Src\i2c.c -o CMakeFiles\C_Board.elf.dir\Core\Src\i2c.c.s
+
 CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\main.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\main.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/main.c.i: cmake_force
@@ -234,7 +247,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -247,7 +260,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -260,7 +273,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/syscalls.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\syscalls.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\syscalls.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -273,7 +286,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -286,7 +299,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\tim.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\tim.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -299,7 +312,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Core\Src\usart.c.obj   -c F:\CODE\CODE_STM32\C_Board\Core\Src\usart.c
 
 CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -312,7 +325,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -325,7 +338,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -338,7 +351,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -351,7 +364,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -364,7 +377,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -377,7 +390,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -390,7 +403,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -403,7 +416,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -416,7 +429,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -429,7 +442,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -442,7 +455,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -453,9 +466,35 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+
+CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -468,7 +507,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -481,7 +520,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -494,7 +533,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -507,7 +546,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -520,7 +559,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -533,7 +572,7 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj   -c F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -546,22 +585,23 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\C_Board.elf.dir\startup\startup_stm32f407xx.s.obj -c F:\CODE\CODE_STM32\C_Board\startup\startup_stm32f407xx.s
 
 # Object files for target C_Board.elf
 C_Board_elf_OBJECTS = \
 "CMakeFiles/C_Board.elf.dir/APP/remote_control.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj" \
-"CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
@@ -580,6 +620,8 @@ C_Board_elf_OBJECTS = \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
+"CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
@@ -593,16 +635,17 @@ C_Board_elf_OBJECTS = \
 C_Board_elf_EXTERNAL_OBJECTS =
 
 C_Board.elf: CMakeFiles/C_Board.elf.dir/APP/remote_control.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_adc.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_buzzer.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_delay.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_key.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_led.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_rc.c.obj
-C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_task/bsp_usart.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_adc.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_buzzer.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_delay.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_key.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_led.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_rc.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Board_test/bsp_usart.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/adc.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/dma.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/gpio.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/i2c.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_it.c.obj
@@ -621,6 +664,8 @@ C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -631,7 +676,7 @@ C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 C_Board.elf: CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/build.make
 C_Board.elf: CMakeFiles/C_Board.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable C_Board.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking C executable C_Board.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C_Board.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/CODE/CODE_STM32/C_Board/cmake-build-debug/C_Board.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/CODE/CODE_STM32/C_Board/cmake-build-debug/C_Board.bin"

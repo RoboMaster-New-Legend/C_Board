@@ -19,8 +19,8 @@
 #ifndef REMOTE_CONTROL_H
 #define REMOTE_CONTROL_H
 
-#include "../Board_task/struct_typedef.h"
-#include "../Board_task/bsp_rc.h"
+#include "../Board_test/struct_typedef.h"
+#include "../Board_test/bsp_rc.h"
 
 #define SBUS_RX_BUF_NUM 36u
 

@@ -21,6 +21,7 @@
 #include "main.h"
 #include "adc.h"
 #include "dma.h"
+#include "i2c.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -28,10 +29,10 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "../../APP/remote_control.h"
-#include "../../Board_task/bsp_rc.h"
-#include "../../Board_task/bsp_usart.h"
-#include "../../Board_task/bsp_led.h"
-#include "../../Board_task/bsp_adc.h"
+#include "../../Board_test/bsp_rc.h"
+#include "../../Board_test/bsp_usart.h"
+#include "../../Board_test/bsp_led.h"
+#include "../../Board_test/bsp_adc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -99,6 +100,7 @@ int main(void) {
     MX_USART3_UART_Init();
     MX_ADC1_Init();
     MX_ADC3_Init();
+    MX_I2C2_Init();
     /* USER CODE BEGIN 2 */
     remote_control_init();
     usart1_tx_dma_init();
@@ -111,15 +113,7 @@ int main(void) {
     /* USER CODE BEGIN WHILE */
     while (1) {
         /* USER CODE END WHILE */
-        vol = get_battery_voltage();
-        if(switch_is_up(local_rc->rc.s[1]))
-        {
-            led_on();
-        }
-        else
-        {
-            led_off();
-        }
+
         /* USER CODE BEGIN 3 */
     }
     /* USER CODE END 3 */

@@ -100,49 +100,49 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/APP/remote_control.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_adc.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_adc.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_adc.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_adc.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_buzzer.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_buzzer.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_buzzer.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_buzzer.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_delay.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_delay.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_delay.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_delay.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_key.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_key.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_key.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_key.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_led.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_led.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_led.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_rc.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_rc.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_rc.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_rc.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_usart.c">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_usart.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/bsp_usart.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/bsp_usart.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
-		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_task/struct_typedef.h">
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Board_test/struct_typedef.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/adc.h">
@@ -152,6 +152,9 @@
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/gpio.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/i2c.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Inc/main.h">
@@ -176,6 +179,9 @@
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Src/gpio.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Src/i2c.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Core/Src/main.c">
@@ -313,6 +319,12 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="C_Board.elf"/>
 		</Unit>
@@ -365,6 +377,12 @@
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="C_Board.elf"/>
 		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
