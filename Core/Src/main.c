@@ -33,6 +33,7 @@
 #include "../../Board_test/bsp_usart.h"
 #include "../../Board_test/bsp_led.h"
 #include "../../Board_test/bsp_adc.h"
+#include "../../divices/OLED.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -102,6 +103,7 @@ int main(void) {
     MX_ADC3_Init();
     MX_I2C2_Init();
     /* USER CODE BEGIN 2 */
+    OLED_init();
     remote_control_init();
     usart1_tx_dma_init();
     const RC_ctrl_t *local_rc = get_remote_control_point();
@@ -113,7 +115,6 @@ int main(void) {
     /* USER CODE BEGIN WHILE */
     while (1) {
         /* USER CODE END WHILE */
-
         /* USER CODE BEGIN 3 */
     }
     /* USER CODE END 3 */

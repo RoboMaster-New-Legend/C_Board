@@ -409,6 +409,15 @@
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/STM32F407IGHx_FLASH.ld">
 			<Option target="C_Board.elf"/>
 		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/divices/OLED.c">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/divices/OLED.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
+		<Unit filename="F:/CODE/CODE_STM32/C_Board/divices/OLED_fonts.h">
+			<Option target="C_Board.elf"/>
+		</Unit>
 		<Unit filename="F:/CODE/CODE_STM32/C_Board/startup/startup_stm32f407xx.s">
 			<Option target="C_Board.elf"/>
 		</Unit>

@@ -530,6 +530,7 @@ CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: ../Board_test/bsp_rc.h
 CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: ../Board_test/bsp_usart.h
 CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: ../Board_test/struct_typedef.h
 CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
+CMakeFiles/C_Board.elf.dir/Core/Src/main.c.obj: ../divices/OLED.h
 
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Inc/main.h
 CMakeFiles/C_Board.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -1464,4 +1465,45 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Core/Inc/main.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../Board_test/struct_typedef.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../divices/OLED.c
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../divices/OLED.h
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../divices/OLED_fonts.h
 

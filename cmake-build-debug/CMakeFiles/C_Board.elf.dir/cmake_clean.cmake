@@ -38,6 +38,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+  "CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj"
   "CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
   "C_Board.elf"
   "C_Board.elf.manifest"

@@ -1195,6 +1195,33 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+divices/OLED.obj: divices/OLED.c.obj
+
+.PHONY : divices/OLED.obj
+
+# target to build an object file
+divices/OLED.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj
+.PHONY : divices/OLED.c.obj
+
+divices/OLED.i: divices/OLED.c.i
+
+.PHONY : divices/OLED.i
+
+# target to preprocess a source file
+divices/OLED.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/divices/OLED.c.i
+.PHONY : divices/OLED.c.i
+
+divices/OLED.s: divices/OLED.c.s
+
+.PHONY : divices/OLED.s
+
+# target to generate assembly for a file
+divices/OLED.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Board.elf.dir\build.make CMakeFiles/C_Board.elf.dir/divices/OLED.c.s
+.PHONY : divices/OLED.c.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -1330,6 +1357,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... divices/OLED.obj
+	@echo ... divices/OLED.i
+	@echo ... divices/OLED.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 

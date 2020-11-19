@@ -63,6 +63,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "F:/CODE/CODE_STM32/C_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+  "F:/CODE/CODE_STM32/C_Board/divices/OLED.c" "F:/CODE/CODE_STM32/C_Board/cmake-build-debug/CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

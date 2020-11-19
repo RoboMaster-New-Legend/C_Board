@@ -583,9 +583,22 @@ CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\C_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: CMakeFiles/C_Board.elf.dir/flags.make
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj: ../divices/OLED.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C_Board.elf.dir\divices\OLED.c.obj   -c F:\CODE\CODE_STM32\C_Board\divices\OLED.c
+
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Board.elf.dir/divices/OLED.c.i"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\CODE\CODE_STM32\C_Board\divices\OLED.c > CMakeFiles\C_Board.elf.dir\divices\OLED.c.i
+
+CMakeFiles/C_Board.elf.dir/divices/OLED.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Board.elf.dir/divices/OLED.c.s"
+	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\CODE\CODE_STM32\C_Board\divices\OLED.c -o CMakeFiles\C_Board.elf.dir\divices\OLED.c.s
+
 CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/C_Board.elf.dir/flags.make
 CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
 	E:\stm32+clion\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\C_Board.elf.dir\startup\startup_stm32f407xx.s.obj -c F:\CODE\CODE_STM32\C_Board\startup\startup_stm32f407xx.s
 
 # Object files for target C_Board.elf
@@ -629,6 +642,7 @@ C_Board_elf_OBJECTS = \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj" \
 "CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
 
 # External object files for target C_Board.elf
@@ -673,10 +687,11 @@ C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+C_Board.elf: CMakeFiles/C_Board.elf.dir/divices/OLED.c.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/startup/startup_stm32f407xx.s.obj
 C_Board.elf: CMakeFiles/C_Board.elf.dir/build.make
 C_Board.elf: CMakeFiles/C_Board.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking C executable C_Board.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\CODE\CODE_STM32\C_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C executable C_Board.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C_Board.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/CODE/CODE_STM32/C_Board/cmake-build-debug/C_Board.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/CODE/CODE_STM32/C_Board/cmake-build-debug/C_Board.bin"
